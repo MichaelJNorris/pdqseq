@@ -1,0 +1,4 @@
+#N canvas 732 490 450 300 10;
+#X obj 145 95 tapTempo;
+#X obj 145 133 print tempo;
+#X connect 0 0 1 0;

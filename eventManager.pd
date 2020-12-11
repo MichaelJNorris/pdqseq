@@ -1,0 +1,3 @@
+#N canvas 249 341 796 473 10;
+#X obj 215 76 array define arrEvents;
+#X obj 207 182 array define arrEventsInUse;
