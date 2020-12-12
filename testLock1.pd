@@ -1,0 +1,10 @@
+#N canvas 40 595 450 425 10;
+#X msg 124 122 1 2 3;
+#X msg 170 121 4 5 6;
+#X msg 218 120 7 8 9;
+#X obj 110 158 testLock 1;
+#X obj 182 157 testLock 2;
+#X obj 257 159 testLock 3;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;

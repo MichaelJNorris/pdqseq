@@ -1,0 +1,10 @@
+#N canvas 556 200 450 300 10;
+#X obj 177 98 eventManager;
+#X obj 80 56 clock_const;
+#X obj 61 27 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 84 26 stop;
+#X obj 80 82 s clock;
+#X connect 1 0 4 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;

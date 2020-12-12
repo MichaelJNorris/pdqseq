@@ -1,7 +1,7 @@
-#N canvas 875 602 655 459 10;
+#N canvas 871 512 655 206 10;
 #X obj 30 30 inlet clock;
 #X obj 30 122 outlet play;
-#N canvas 274 301 655 692 initialize 1;
+#N canvas 274 301 655 692 initialize 0;
 #X msg 219 275 resize \$1;
 #X text 157 21 Initialize;
 #X msg 200 102 1.44e+07;
@@ -346,7 +346,6 @@ shift phases down to 0-1 for playing;
 #X connect 4 0 3 0;
 #X connect 4 0 1 0;
 #X connect 7 0 8 0;
-#X connect 9 0 11 0;
 #X connect 10 0 9 0;
 #X connect 13 0 12 0;
 #X connect 15 0 14 0;
