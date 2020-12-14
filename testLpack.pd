@@ -1,0 +1,8 @@
+#N canvas 477 67 450 300 10;
+#X obj 152 170 lpack;
+#X obj 145 215 print;
+#X msg 223 118 0 3 42 43 44;
+#X msg 121 122 56 57 58 59;
+#X connect 0 0 1 0;
+#X connect 2 0 0 1;
+#X connect 3 0 0 0;
