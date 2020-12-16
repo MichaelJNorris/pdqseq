@@ -1,0 +1,6 @@
+#N canvas 652 395 450 300 10;
+#X obj 153 135 percPad 6;
+#X obj 156 177 print;
+#X obj 209 174 print;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
