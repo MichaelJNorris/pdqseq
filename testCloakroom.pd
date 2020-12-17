@@ -1,4 +1,4 @@
-#N canvas 659 187 605 300 10;
+#N canvas 656 663 605 300 10;
 #X obj 60 111 cloakroom 14 1000;
 #X obj 59 77 r toCloakroom;
 #X obj 64 148 s fromCloakroom;
@@ -10,6 +10,8 @@
 #X msg 395 68 get 1;
 #X msg 227 25 free 1;
 #X msg 282 9 create 24 67 5068 33;
+#X msg 449 71 get \$1;
+#X floatatom 474 48 5 0 0 0 - - -;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 4 0 6 0;
@@ -18,3 +20,5 @@
 #X connect 8 0 3 0;
 #X connect 9 0 3 0;
 #X connect 10 0 3 0;
+#X connect 11 0 3 0;
+#X connect 12 0 11 0;

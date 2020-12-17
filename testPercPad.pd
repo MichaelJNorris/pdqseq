@@ -1,6 +1,11 @@
-#N canvas 652 395 450 300 10;
-#X obj 153 135 percPad 6;
-#X obj 156 177 print;
-#X obj 209 174 print;
+#N canvas 179 409 450 300 10;
+#X obj 132 43 percPad 6;
+#X obj 154 77 print;
+#X obj 133 140 minimalPadPerc;
+#X obj 131 192 *~ 0.5;
+#X obj 125 238 dac~;
 #X connect 0 0 1 0;
-#X connect 0 1 2 0;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 0 4 1;
