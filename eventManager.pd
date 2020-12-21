@@ -1,6 +1,5 @@
 #N canvas 427 198 570 365 10;
 #X obj 265 149 schedule;
-#X obj 73 128 cloakroom 14 1000;
 #X msg 265 181 get \$1;
 #X obj 192 36 inlet clock;
 #X obj 265 234 outlet event;
@@ -134,12 +133,13 @@
 #X text 324 55 [key \, bar \, ph \, [spec]];
 #X text 242 265 [key \, bar \, ph \, [spec]];
 #X text 321 150 [key \, bar \, ph];
-#X connect 0 0 2 0;
+#X obj 73 128 cloakroom 20 1000;
+#X connect 0 0 1 0;
 #X connect 1 0 7 0;
-#X connect 2 0 8 0;
-#X connect 3 0 0 0;
-#X connect 5 0 9 0;
-#X connect 6 0 1 0;
-#X connect 8 0 4 0;
-#X connect 9 0 10 0;
-#X connect 10 0 0 1;
+#X connect 2 0 0 0;
+#X connect 4 0 8 0;
+#X connect 5 0 13 0;
+#X connect 7 0 3 0;
+#X connect 8 0 9 0;
+#X connect 9 0 0 1;
+#X connect 13 0 6 0;
