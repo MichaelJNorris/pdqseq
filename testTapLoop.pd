@@ -1,6 +1,6 @@
 #N canvas 894 218 675 300 10;
 #X obj 59 96 tapLoop;
-#X obj 59 13 tgl 30 1 empty empty empty 17 7 0 20 -203904 -1 -1 0 1
+#X obj 78 14 tgl 30 1 empty empty empty 17 7 0 20 -203904 -1 -1 0 1
 ;
 #X obj 290 16 bng 30 250 50 0 empty empty empty 17 7 0 10 -203904 -1
 -1;
@@ -31,7 +31,7 @@
 #X msg 269 136 -1 \$1 \$2;
 #X obj 269 160 list append;
 #X obj 269 191 s eventFromPad;
-#X obj 78 49 r eventFromPad;
+#X obj 59 52 r eventFromPad;
 #X obj 81 220 print barDur;
 #X obj 98 121 print eventsToSched;
 #X obj 59 145 s \$0-barDur;
@@ -40,7 +40,7 @@
 #X obj 81 194 r \$0-barDur;
 #X connect 0 0 15 0;
 #X connect 0 1 14 0;
-#X connect 1 0 0 0;
+#X connect 1 0 0 1;
 #X connect 2 0 5 0;
 #X connect 3 0 10 1;
 #X connect 4 0 6 0;
@@ -50,7 +50,7 @@
 #X connect 8 0 9 0;
 #X connect 9 0 10 0;
 #X connect 10 0 11 0;
-#X connect 12 0 0 1;
+#X connect 12 0 0 0;
 #X connect 16 0 4 0;
 #X connect 17 0 0 2;
 #X connect 18 0 13 0;
